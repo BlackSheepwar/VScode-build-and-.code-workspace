@@ -1,0 +1,9 @@
+device STM32F103C6
+si SWD
+speed 4000
+connect
+erase
+loadfile RemoteControl_F103C6T6A/build/Debug/Ricardo.elf
+r
+g
+exit
